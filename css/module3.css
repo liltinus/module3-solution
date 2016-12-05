@@ -1,0 +1,57 @@
+* {
+  margin: 0px;
+}
+body {
+  background-color: maroon;
+  color: yellow;
+}
+#container {
+  border: 5px solid blue;
+  width: 100%;
+  margin: 20px 20px 20px 20px;
+}
+#main {
+  border: 1px solid black;
+
+}
+hr {
+  width: 50%;
+}
+.header {
+  border: 5px solid yellow;
+  border-radius: 5px;
+}
+#heading {
+  font-family: 'Rubik', sans-serif;
+}
+#subheading {
+  font-family: 'Gentium Basic', serif;
+}
+#map  {
+  /* https://www.google.com/maps/place/259+N+Blaine+Ave,+Bradley,+IL+60915/@41.145343,-87.8755359,17z/data=!3m1!4b1!4m5!3m4!1s0x880ddd9f3617c581:0xdaa52fdca2f032e5!8m2!3d41.145339!4d-87.8733419 */
+}
+/* Large Devices */
+@media (min-width: 1200px) {
+
+}
+/* Medium Devices */
+@media (min-width: 992px) and (max-width: 1199px) {
+  #logo-img {
+    /* HAVE TO GO UP ONE DIRECTORY FROM CSS SHEET, THEN DOWN TO /IMAGES */
+    background: url('../images/pic1.jpg') no-repeat;
+    background-position: center;
+    width: 100px;
+    height: 100px;
+  }
+}
+/* Small Devices */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+/* Extra Small Devices */
+@media (max-width: 767px) {
+  p {
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+}
+text-transform: uppercase;
