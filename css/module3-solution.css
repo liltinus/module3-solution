@@ -1,0 +1,79 @@
+* {
+
+}
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #61122f;
+  font-family: 'Oxygen', sans-serif;
+}
+h1 {
+  font-size: 2em;
+}
+h2 {
+  background-color: gray;
+  color: black;
+  font-size: 1.25em;
+  font-weight: bold;
+  margin: 0px;
+}
+p {
+  background-color: gray;
+  color: black;
+}
+#header-nav {
+  background-color: #f6b319;
+  border-radius: 0;
+  border: 0;
+}
+#collapsable-nav span {
+  color: black;
+}
+.navbar-brand {
+  color: #557c3e;
+  text-transform: uppercase;
+  line-height: .75;
+}
+.navbar-brand a {
+  text-decoration: none;
+  font-size: .5em;
+}
+.navbar-toggle {
+  position: relative;
+  float: right;
+  background-color: transparent;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+.navbar-toggle .icon-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  border-radius: 1px;
+}
+.navbar-toggle .icon-bar + .icon-bar {
+  /*margin-top: 4px;*/
+}
+@media (max-width: 767px) {
+  #collapsable-nav {
+    background-color: #f6b319;
+    font-weight: bold;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+  }
+  #collapsable-nav a {
+    border-bottom: 1px solid #fff;
+    line-height: 15px;
+    text-align: center;
+  }
+}
+@media (min-width: 768px) {
+  .navbar-toggle {
+    display: none;
+  }
+  #collapsable-nav span{
+    display: none;
+  }
+}
